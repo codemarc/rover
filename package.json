@@ -1,13 +1,10 @@
 {
-  "name": "s2d",
+  "name": "rover",
   "version": "1.0.0",
-  "main": "index.js",
-  "module": "true",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node cli.js"
   },
-  "license": "ISC",
-
   "devDependencies": {
     "jest": "^29.7.0",
     "jest-extended": "^4.0.2"
